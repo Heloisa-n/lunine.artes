@@ -1,0 +1,34 @@
+
+.lista-menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    width: 60vw;
+}
+
+.container__menu-hamburguer {
+    padding: 0 0.5em;
+}
+.container__botao:checked~.lista-menu {
+    display: block;
+}
+
+.lista-menu__item {
+    padding: 1em;
+    background-color:white;
+    font-weight: bold;
+    font-size: 1.5em;
+    z-index: 1;
+}
+
+.lista-menu__link {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+
+}
+
+.container__botao {
+ position: absolute;
+ display: none;
+}

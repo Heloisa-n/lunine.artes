@@ -1,0 +1,145 @@
+@import url(menu.css);
+
+:root {
+    background-color: white;
+}
+
+@media (min-width:1000px) {
+
+    .cabecalho {
+        text-align: center;
+        position: relative;
+        padding: 1.5em 0.5em;
+        border-bottom: 1px black solid;
+    }
+
+    .instagram {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    .icone_instagram {
+        width: 3.5em;
+        height: 3.5em;
+    }
+    .link__instagram {
+        text-decoration: none;
+        color: black;
+        font-size: 1.5em;
+        font-weight: bold;
+        transition: 1s;
+    }
+
+    .link__instagram:hover {
+        font-size: 1.8em;
+        transition: 0.5s;
+    }
+    
+    .cabecalho p {
+        font-size: 5em;
+    }
+    .menu__icon {
+        display:none;
+    }
+    
+    .container__imagem {
+        display: flex;
+    
+        align-items: center;
+    }
+    .container__fotos {
+        width: 25vw;
+        transition: 0.5s;
+    }
+    
+    .container__fotos:hover {
+        width:35vw;
+        transition: 1s;
+        z-index: 1;
+    }
+    }
+
+
+@media (min-width:761px) and (max-width:1000px) {
+
+.instagram {
+    display: none;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    gap: 10em;
+    position: relative;
+    padding: 1.5em 0.5em;
+    border-bottom: 1px black solid;
+}
+
+.cabecalho p {
+    font-size: 5em;
+}
+.menu__icon {
+    width: 3em;
+    height: 3em;
+}
+
+.container__imagem {
+    display: flex;
+
+    align-items: center;
+}
+.container__fotos {
+    width: 40vw;
+    transition: 0.5s;
+}
+
+.container__fotos:hover {
+    width:50vw;
+    transition: 1s;
+    z-index: 1;
+}
+}
+
+@media (min-width:320px) and (max-width:760px) {
+
+.instagram {
+    display: none;
+}    
+
+.cabecalho {
+    display: flex;
+    gap: 3em;
+    position: relative;
+    padding: 1.5em 0.5em;
+    border-bottom: 1px black solid;
+    
+}
+
+.cabecalho p {
+    font-size: 3em;
+}
+.menu__icon {
+    width: 2.5em;
+    height: 2.5em;
+}
+
+.container__imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container__fotos {
+    width: 50vw;
+    transition: 0.5s;
+}
+
+.container__fotos:hover {
+    width:90vw;
+    transition: 1s;
+    z-index: 1;
+}
+
+
+}
